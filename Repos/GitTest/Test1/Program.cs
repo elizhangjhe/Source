@@ -16,7 +16,9 @@ namespace Test1
 
             Utils.ConsoleString("Multiply: " + act.Multiply(10, 20));
 
-            Console.ReadLine();
+            Utils.ConsoleString("Division: " + act.Division(10, 20));
+
+            Console.ReadKey();
         }
     }
 }
