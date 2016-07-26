@@ -30,20 +30,31 @@ namespace Test1
         /// <param name="firstNum"></param>
         /// <param name="secondNUm"></param>
         /// <returns></returns>
-        internal double Division(double firstNum, double secondNUm)
+        internal double Subtraction(double firstNum, double secondNUm)
         {
             return firstNum - secondNUm;
         }
 
         /// <summary>
-        /// Not done yet
+        /// firstNum times secondNum
         /// </summary>
         /// <param name="firstNum"></param>
         /// <param name="secondNum"></param>
         /// <returns></returns>
         internal double Multiply(double firstNum, double secondNum)
         {
-            return firstNum + secondNum;
+            return firstNum * secondNum;
+        }
+
+        /// <summary>
+        /// firstNum devided by secondNum
+        /// </summary>
+        /// <param name="firstNum"></param>
+        /// <param name="secondNum"></param>
+        /// <returns></returns>
+        internal double Division(double firstNum, double secondNum)
+        {
+            return firstNum / secondNum;
         }
     }
 }
