@@ -43,7 +43,7 @@ namespace Test1
         /// <returns></returns>
         internal double Multiply(double firstNum, double secondNum)
         {
-            return 0;
+            return firstNum + secondNum;
         }
     }
 }
