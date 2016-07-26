@@ -12,8 +12,9 @@ namespace Test1
         {
             Math act = new Math();
 
-            Utils.ConsoleString(act.Addition(10, 20));
-            
+            Utils.ConsoleString("Addition:" + act.Addition(10, 20));
+
+            Utils.ConsoleString("Multiply: " + act.Multiply(10, 20));
 
             Console.ReadLine();
         }

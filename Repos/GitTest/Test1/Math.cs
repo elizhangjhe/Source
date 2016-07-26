@@ -34,5 +34,16 @@ namespace Test1
         {
             return firstNum - secondNUm;
         }
+
+        /// <summary>
+        /// Not done yet
+        /// </summary>
+        /// <param name="firstNum"></param>
+        /// <param name="secondNum"></param>
+        /// <returns></returns>
+        internal double Multiply(double firstNum, double secondNum)
+        {
+            return 0;
+        }
     }
 }
